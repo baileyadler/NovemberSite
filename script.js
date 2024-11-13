@@ -1,3 +1,4 @@
+let userWelcome = alert('Welcome and enjoy this activity')
 let userName = prompt('What is your name!?')
 let userQuest = prompt('What is your quest?!')
 let userFavColor = prompt('What is your favorite color?')
@@ -10,3 +11,4 @@ let myStory = ` <p> Hello ${userName}. Answer me these questions three, and the 
 console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory
+
