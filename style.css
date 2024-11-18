@@ -6,4 +6,21 @@ body{
 }
 h1{
     margin-top:230px;
+    font-family: "turnip", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:28px;
+}
+p{
+    width:800px;
+    margin-left:550px;
+    font-size:20px;
+    font-family: "turnip", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.turnip{
+    font-family: "turnip", serif;
+font-weight: 400;
+font-style: normal;
 }

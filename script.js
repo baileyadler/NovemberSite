@@ -1,13 +1,14 @@
 let userWelcome = alert('Welcome and enjoy this activity')
-let userName = prompt('What is your name!?')
-let userQuest = prompt('What is your quest?!')
-let userFavColor = prompt('What is your favorite color?')
-let swallowAirSpeed = prompt('What is the air speed of an unlaiden swallow?')
+let userName = prompt('name of your best friend')
+let userQuest = prompt('special occasion')
+let userDate = prompt('date for tomorrow?')
+let userFood = prompt('favorite food')
+let userPlace =prompt('restaurant')
 console.log(userName)
 
-let myStory = ` <p> Hello ${userName}. Answer me these questions three, and the other side you'wll see. </p>
+let myStory = ` <p> Hello! You are invited to ${userName}'s Birthday party on ${userDate}. Feel free to bring ${userFood} for the ${userQuest}. Have fun celebrating ${userName} at ${userPlace}.</p>
 
-<p> I see you have already answered, so your quest is to ${userQuest}. </p> `
+<p> Make sure to arrive early to ${userPlace}. </p> `
 console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory
