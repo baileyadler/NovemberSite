@@ -9,16 +9,18 @@ h1{
     font-family: "turnip", serif;
     font-weight: 400;
     font-style: normal;
-    font-size:28px;
+    text-align: center;
     color: rgb(235, 25, 60);
 }
 p{
-    width:800px;
-    margin-left:590px;
-    font-size:20px;
+    margin:auto;
+    width:40%;
+    font-size:2vh;
     font-family: "turnip", serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
+    padding:20px;
 }
 .turnip{
     font-family: "turnip", serif;
